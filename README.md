@@ -71,3 +71,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+docker run -it -v file repo/Docker-31:/ usr/src/myapp-w/usr/src/myapp openjdk
